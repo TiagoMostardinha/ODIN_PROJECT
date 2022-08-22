@@ -6,3 +6,6 @@ If tou want to try to learn from the same source as me, with the same lectures, 
 
 
 # Progress:
+
+# To Do:
+1. Reboot and Dual-boot w/ Ubuntu alongside Windows.
