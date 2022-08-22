@@ -1,7 +1,7 @@
 # ODIN_PROJECT
 It has all the work I have done, after I finished the online Web Dev course of Odin Project.
 
-# ODIN_PROJECT
+# The Odin Project
 If tou want to try to learn from the same source as me, with the same lectures, go to www.theodinproject.com.
 
 
