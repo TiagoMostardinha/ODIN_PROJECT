@@ -6,5 +6,3 @@ If tou want to try to learn from the same source as me, with the same lectures, 
 
 
 # Progress:
-Lecture 0 > done
-Project 0 > done
