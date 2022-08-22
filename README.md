@@ -8,5 +8,5 @@ If tou want to try to learn from the same source as me, with the same lectures, 
 1. Linux Command Cheat Sheet: https://files.fosswire.com/2007/08/fwunixref.pdf.
 
 # To Do:
-1. Reboot and Dual-boot w/ Ubuntu alongside Windows.
+1. Reboot and Dual-boot w/ Ubuntu alongside Windows: https://www.theodinproject.com/lessons/foundations-installations.
 2. Read Linux Command Cheat Sheet: https://files.fosswire.com/2007/08/fwunixref.pdf.
