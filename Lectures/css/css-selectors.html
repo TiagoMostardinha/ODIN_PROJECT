@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Selectors</title>
+    <style>
+        /* Universal Selector */
+        *{
+            color:purple;
+        }
+
+        /* Type Selector*/
+        div{
+            color:green;
+        }
+
+        /* Classes Selector */
+        .alert-text{
+            color:red;
+        }
+        .severe-alert{
+            font-size: 30px;
+        }
+
+        /* ID Selector */
+        #title{
+            background-color: red;
+        }
+
+        /* Grouping Selector */
+        .read,.unread{
+            color: white;
+            background-color: black;
+        }
+        .read {
+            /* several unique declarations */
+            font-style: italic;
+        }
+        .unread {
+            /* several unique declarations */
+            font-weight: bold;
+        }
+
+        /* Chaining Selector */
+        .subsection.header{
+            color:brown;
+        }
+        .subsection#preview{
+            color: blue;
+        }
+        /* (selects the element which has both of the classes and turn into something more specific) */
+
+
+    </style>
+  </head>
+  <body>
+    <!-- * Selector & Type Selector-->
+    <div>
+        <div>Hello, World!</div>
+        <p>Hi...</p>
+        <div>Okay, bye.</div>
+        * : selector still active,,<br>
+        <strong>...still active...</strong>
+    </div><br>
+
+    <!-- classes Selector -->
+    <div class="alert-text">Please agree to our terms of service.</div><br>
+    
+    <!-- Multiple class Selector -->
+    <em class="alert-text severe-alert">hmmm</em><br>
+
+    <!-- ID selector -->
+    <div id="title">My Awesome 90's Page</div><br>
+
+    <!-- Grouping Selector -->
+    <div class="read"> Read Text.</div>
+    <div class="unread">Unread Text.</div><br>
+
+    <!-- Chaining Selector -->
+    <div>
+        <div class="subsection header">Latest Posts</div>
+        <p class="subsection" id="preview">This is where a preview for a post might go.</p>
+    </div>
+  </body>
+</html>
