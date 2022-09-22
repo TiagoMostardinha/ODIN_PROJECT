@@ -6,19 +6,22 @@
     <title>CSS Descendants</title>
     <style>
         .ancestor .contents{
-            
+          color: red
         }
 
     </style>
   </head>
   <body>
     <div class="ancestor">          <!-- A -->
+      Nothing here.
       <div class="contents">            <!-- B -->
+        This a child of the ancestor.
         <div class="contents">              <!-- C -->
+          This a grandchild of the ancestor.
         </div>
       </div>
     </div>
 
-    <div class="contents"></div>    <!-- D -->
+    <div class="contents"> Nothing here.</div>    <!-- D -->
   </body>
 </html>
