@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CSS Cascade</title>
+  <style>
+    /* Cascade:
+        1. ID selectors (most specific selector)
+        2. Class selectors
+        3. Type selectors
+    */
+
+    /* 1st case: */
+    /* rule 1 */
+    .subsection-1 {
+      color: blue;
+    }
+
+    /* rule 2 */
+    .main-1 .list-1 {
+      color: red;
+    }
+
+    /* 2nd case: */
+    /* rule 1 */
+    #subsection-2 {
+      color: purple;
+    }
+
+    /* rule 2 */
+    .main-2 .list-2 {
+      color: green;
+    }
+
+    /* 3rd case: */
+    /* rule 1 */
+    #subsection-3 .list-3 {
+      color: pink;
+      background-color: yellow;
+    }
+    /* rule 2 */
+    #subsection-3 .main-3 .list-3 {
+      color: orange;
+    }
+  </style>
+</head>
+
+<body>
+  <h2>1st Case:</h2>
+  <strong>Only Classes</strong>
+  <div class="main-1">
+    <div class="list-1 subsection-1">Both rules are using only class selectors, but rule 2 is more specific because it
+      is using more class selectors</div>
+  </div><br>
+
+
+  <h2>2st Case:</h2>
+  <strong>Classes vs ID</strong>
+  <div class="main-2">
+    <div class="list-2" id="subsection-2">Despite rule 2 having more class selectors than ID selectors, rule 1 is more
+      specific because ID beats class.</div>
+  </div><br>
+
+
+  <h2>3rd Case:</h2>
+  <strong>ID + Classes</strong>
+  <div class="main-3">
+    <div class="list-3" id="subsection-3">Both rules are using ID and class selectors, so it will choose the one with more classes</div>
+  </div>
+
+</body>
+</html>
