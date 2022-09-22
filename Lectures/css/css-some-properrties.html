@@ -1,11 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Properties</title>
+    <style>
+      .colors p {
+        /* hex example: */
+        color: #1100ff;
+        /* rgb example: */
+        color: rgb(100, 0, 127);
+        /* hsl example: */
+        color: hsl(15, 82%, 56%);
+        /* rgba example w/ transparency */
+        color: rgba(200,54,78,0.6);
+        
+        /* bacground-color */
+        background-color: rgba(17, 108, 101, 0.6);
+      }
+
+      .text-properties p{
+        /* font family */
+        font-family: "Times New Roman", sans-serif;
+        /* font size */
+        font-size: 22px;
+        /* font weight */
+        font-weight: bold;
+        /* font align */
+        text-align: right;
+      }
+      
+      .image-properties img{
+        height: auto;
+        width: 500px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- colors properties -->
+    <div class="colors">
+        <p>Some colors!</p>
+    </div>
+
+    <!-- typography basics and text-align -->
+    <div class="text-properties">
+        <p>Some text properties!</p>
+    </div>
+
+    <!-- images properties -->
+    <div class="image-properties">
+        <img src="../others/more-images/dog.jpg">
+    </div>
+  </body>
 </html>
