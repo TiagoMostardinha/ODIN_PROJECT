@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Rule Order</title>
+    <style>
+        /* Rule Order */
+        .alert{
+            color: red;
+        }
+        
+        .warning{
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <p class="alert warning">Since the .warning rule was the last one defined, and no other factor was able to determine which rule to apply, it’s the one that gets applied to the element.</p>
+</body>
+</html>
