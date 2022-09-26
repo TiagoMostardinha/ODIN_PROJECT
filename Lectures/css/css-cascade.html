@@ -44,6 +44,17 @@
     #subsection-3 .main-3 .list-3 {
       color: orange;
     }
+
+    /* 4th case: */
+    /* rule 1 */
+    .main-4 *{
+      color:black;
+    }
+    /* rule 2 */
+    .main-4 div {
+      color: orange;
+    }
+    
   </style>
 </head>
 
@@ -67,7 +78,14 @@
   <h2>3rd Case:</h2>
   <strong>ID + Classes</strong>
   <div class="main-3">
-    <div class="list-3" id="subsection-3">Both rules are using ID and class selectors, so it will choose the one with more classes</div>
+    <div class="list-3" id="subsection-3">Both rules are using ID and class selectors, so it will choose the one with more classes. However since 'background-color' is not conflicting it will be applied.</div>
+  </div>
+
+
+  <h2>4th Case:</h2>
+  <strong>Type Sel vs Universal</strong>
+  <div class="main-4">
+    <div class="list-4">Both rules are using ID and class selectors, so it will choose the one with more classes</div>
   </div>
 
 </body>
