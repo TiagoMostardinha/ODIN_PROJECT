@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Stylesheets</title>
+    
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Internal CSS -->
+    <style>
+        .main-2{
+            color: green;
+            background-color: grey;
+        }
+
+        .main-2 p{
+            color:orange;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- External CSS -->
+    <div class="main-1">
+        <h1>External CSS</h1>
+        <p>This is in a separated sheet linked to style.css</p>
+    </div>
+
+    <!-- Internal CSS -->
+    <div class="main-2">
+        <h3>Internal CSS</h3>
+        <p>This is in the head of the html page and i'm adding style to it.</p>
+    </div>
+    
+    <!-- Inline CSS -->
+    <div style="color: white; background-color: pink;">
+        <h3>Inline CSS</h3>
+        <p style="color: aquamarine;">This is in the head of the html page and i'm adding style to it.</p>
+    </div>
+</body>
+</html>
