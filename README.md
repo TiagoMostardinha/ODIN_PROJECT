@@ -11,9 +11,9 @@ If tou want to try to learn from the same source as me, with the same lectures, 
 4. All HTML Attribute: https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
 5. Image Formats: https://www.internetingishard.com/html-and-css/links-and-images/#image-formats
 6. All CSS References: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
-6. https://www.w3schools.com/cssref/
 7. CSS Cascade: https://wattenberger.com/blog/css-cascade
 8. CSS Specificity: https://www.w3schools.com/css/css_specificity.asp
 
 # To Do:
 1. Read Linux Command Cheat Sheet: https://files.fosswire.com/2007/08/fwunixref.pdf.
+2. Read All CSS References: https://www.w3schools.com/cssref/
