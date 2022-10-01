@@ -11,8 +11,8 @@ If tou want to try to learn from the same source as me, with the same lectures, 
 4. All HTML Attribute: https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
 5. Image Formats: https://www.internetingishard.com/html-and-css/links-and-images/#image-formats
 6. All CSS References: 
-- https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
-- https://www.w3schools.com/cssref/
+    1. https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
+    2. https://www.w3schools.com/cssref/
 6. CSS Cascade: https://wattenberger.com/blog/css-cascade
 7. CSS Specificity: https://www.w3schools.com/css/css_specificity.asp
 
