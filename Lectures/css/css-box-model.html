@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Box Model</title>
+    <style>
+        /* 
+            Padding:    Increases the space between the edge of a box and the content inside of it.
+            Border:     Adds space (even if it’s only a pixel or two) between the margin and the padding.
+            Margin:     Increases the space between a box and any others that sit next to it. 
+        */
+
+        * {
+            padding: 0px;
+            margin: 0px;
+            font-size: 40px;
+        }
+        
+        .box-one {
+            /* Padding:*/
+            padding: 20px;
+
+            /* Border */
+            border: 30px solid #9b51e0;
+
+            /* Margin */
+            margin: 60px;
+            
+
+            /* others */
+            background-color: #eb5757;
+            width: 100px;
+            height: 100px;
+        }
+
+        .box-two {
+            /* Padding:*/
+            padding: 50px;
+
+            /* Border */
+            border: 30px solid #27ae60;
+
+            /* Margin */
+            margin: 30px;
+
+
+            /* others */
+            background-color: #2d9cdb;
+            width: 400px;
+            height: 250px;
+
+            /* box-sizing will make the content + padding + border with exact width and height given. Instead of, making only the content with the height and width given. */
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <div class="box-one">Box One</div>
+    <div class="box-two">Box Two</div>
+    
+</body>
+</html>
