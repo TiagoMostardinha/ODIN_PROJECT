@@ -7,7 +7,7 @@ If tou want to try to learn from the same source as me, with the same lectures, 
 # Must See:
 1. Linux Command Cheat Sheet: https://files.fosswire.com/2007/08/fwunixref.pdf.
 2. HTML validator: https://validator.w3.org/.
-3. All HTML tags: https://developer.mozilla.org/en-US/docs/Web/HTML/Element
+3. All HTML Elements: https://developer.mozilla.org/en-US/docs/Web/HTML/Element
 4. All HTML Attribute: https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
 5. Image Formats: https://www.internetingishard.com/html-and-css/links-and-images/#image-formats
 6. All CSS References: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
